@@ -1,0 +1,16 @@
+{
+  "name": "audio-bot",
+  "version": "1.0.0",
+  "description": "YouTube to Audio Telegram Bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "dotenv": "^16.4.5",
+    "fluent-ffmpeg": "^2.1.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "pg": "^8.12.0"
+  }
+}
